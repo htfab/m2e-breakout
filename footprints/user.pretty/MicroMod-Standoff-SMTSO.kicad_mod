@@ -1,0 +1,67 @@
+(footprint "MicroMod-Standoff-SMTSO" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (property "LCSC" "C2915630")
+  (property "Sheetfile" "m2e_breakout.kicad_sch")
+  (property "Sheetname" "")
+  (property "ki_description" "Mounting Hole without connection")
+  (property "ki_keywords" "mounting hole")
+  (attr through_hole)
+  (fp_text reference "H1" (at 0.2 -3.9) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 1fcb73ac-0a1b-498a-b75f-e37ca22ec328)
+  )
+  (fp_text value "MICROMOD-Standoff-SMTSO" (at 0.1 4.15) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp f1d5f38e-3d25-427f-abb3-69ed50fb6891)
+  )
+  (pad "1" smd custom (at -1.9304 -1.9304) (size 0.75 0.75) (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.05)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly
+        (pts
+          (arc (start -0.383132 1.8288) (mid 0.292903 0.292874) (end 1.8288 -0.383226))
+          (arc (start 1.828844 -1.195449) (mid -0.280999 -0.281058) (end -1.195352 1.8288))
+        )
+        (width 0) (fill yes))
+    ) (tstamp 6cc71766-2c48-4c5f-9915-35cdb3b4a9ab))
+  (pad "1" smd custom (at -1.9304 1.9304) (size 0.75 0.75) (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.05)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly
+        (pts
+          (arc (start -0.383132 -1.8288) (mid 0.292903 -0.292874) (end 1.8288 0.383226))
+          (arc (start 1.828844 1.195449) (mid -0.280999 0.281058) (end -1.195352 -1.8288))
+        )
+        (width 0) (fill yes))
+    ) (tstamp 9cf0a5f3-2c50-4d8a-a005-d6de626137f9))
+  (pad "1" thru_hole circle (at 0 0) (size 6.3 6.3) (drill 4.25) (layers "*.Cu" "*.Mask") (tstamp 41b88813-0eeb-4411-8b6d-9af5cd91682f))
+  (pad "1" smd custom (at 1.9304 -1.905) (size 0.75 0.75) (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.05)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly
+        (pts
+          (arc (start 0.38323 1.8034) (mid -0.292805 0.267474) (end -1.828702 -0.408626))
+          (arc (start -1.828746 -1.220849) (mid 0.281097 -0.306458) (end 1.19545 1.8034))
+        )
+        (width 0) (fill yes))
+    ) (tstamp 501c6cfc-3402-4f14-8175-93cc0d56bdb1))
+  (pad "1" smd custom (at 1.9304 1.9304) (size 0.75 0.75) (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.05)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly
+        (pts
+          (arc (start 0.38323 -1.8288) (mid -0.292805 -0.292874) (end -1.828702 0.383226))
+          (arc (start -1.828746 1.195449) (mid 0.281097 0.281058) (end 1.19545 -1.8288))
+        )
+        (width 0) (fill yes))
+    ) (tstamp 11b9261b-9b52-4a10-966b-e8c4dc8514ca))
+  (model "/home/passant/efabless/pcb/3d/9774020360R-Standoff.stp"
+    (offset (xyz 0 0 2))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 90 0 0))
+  )
+)
